@@ -41,7 +41,8 @@
     "release": "bash scripts/release.sh",
     "release:weex": "bash scripts/release-weex.sh",
     "release:note": "node scripts/gen-release-note.js",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "publish-package": "npm publish --access=public"
   },
   "lint-staged": {
     "*.js": [
@@ -51,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue.git"
+    "url": "git+https://github.com/nivinjoseph/vue.git"
   },
   "keywords": [
     "vue"
