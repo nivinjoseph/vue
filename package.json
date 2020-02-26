@@ -40,7 +40,7 @@
     "bench:ssr": "npm run build:ssr && node benchmarks/ssr/renderToString.js && node benchmarks/ssr/renderToStream.js",
     "release": "bash scripts/release.sh",
     "release:weex": "bash scripts/release-weex.sh",
-    "release:note": "node scripts/gen-release-note.js",
+    "release:note": "node scripts/gen-release-note",
     "commit": "git-cz",
     "publish-package": "npm publish --access=public"
   },
